@@ -4,4 +4,6 @@ import com.helloworld.pojo.User;
 
 public interface IUserService {
 	User getUserById(int userId);
+
+	void updateUser(User user);
 }

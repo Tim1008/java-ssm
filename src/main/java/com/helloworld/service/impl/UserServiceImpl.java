@@ -18,4 +18,8 @@ public class UserServiceImpl implements IUserService{
 		return mUserDao.selectByPrimaryKey(userId);
 	}
 
+	public void updateUser(User user) {
+		mUserDao.updateByPrimaryKey(user);
+	}
+
 }
